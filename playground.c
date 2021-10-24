@@ -1,18 +1,25 @@
 #include <stdio.h>
 
+int power(int base, int powerNumber);
 int main()
 {
-    int n = 100, x;
+    int base, powerNumber;
+    printf("Enter base\n");
+    scanf("%d", &base);
+    printf("Enter powerNumber\n");
+    scanf("%d", &powerNumber);
 
-    x = n;
+    int result = power(base, powerNumber);
 
-
-    while (n != 0)
-    {
-       n /= 10;
-
-    };
-    printf("x = %d, n = %d\n", x, n);
+    printf("%d^%d = %d\n", base, powerNumber, result); 
+  return 0; 
+}
+int power(int base, int powerNumber){
     
-    return 0;
-};
+    if(powerNumber != 0){
+        return (base * power(base, powerNumber-1));
+    }else
+    return 1;
+}
+
+    

@@ -1,16 +1,21 @@
 
-=> We will learn in C flow Control are:
+=> We will learn in C function are:
 ```````````````````````````````````````````````````````````
-01. Check whether a number is even or odd.
-02. Check whether a character is a vowel or consonant.
-03. Find the largest number among three numbers.
-04. Check Whether the Entered Year is Leap Year or not.
-05. Check Whether a Number is Positive or Negative or Zero.
-06. Checker whether a character is an alphabet or not
-07. Find factorial of a number.
-08. Generate multiplication table.
-09. Find the sum of natural numbers. 
-10. Count number of digits of an integer. 
-11. Reverse a number.
-12. Calculate the power of a number. 
-13. Check whether a number is a palindrome or not. 
+01. Return the sum of two number.
+02. Convert hours into minutes, minutes into seconds.
+03. Return the Next Number from the Integer Passed.
+04. Area of Triangle.
+05. How do you calculate power in a circuit.
+06. Maximum range of third edge of a triangle.
+07. Find the Perimeter of a Rectangle.
+08. Return Something to Me!
+09. Correct the Mistakes.
+10. Is the Number Less than or Equal to Zero?
+11. Find the sum of natural numbers using recursion.
+12. Calculate the factorial of a number using recursion.
+13. Reverse a sentence using recursion.
+14. Calculate the power of a number using recursion.
+15. C Program to Find the Area of a Circle Using Functions.
+16. C Program to Find the Cube of a Number Using Functions.
+17. Find Minimum & Maximum in Three Numbers by Function.
+<!-- 18. Find the Sum of Last Two Digits of an Integer Number. -->
